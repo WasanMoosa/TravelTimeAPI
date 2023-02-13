@@ -73,6 +73,7 @@ public class Main {
             Map<String, Object> duration = (Map<String, Object>) elementMap.get("duration");
             String durationText = (String) duration.get("text");
             System.out.println("The Estimated duration time is " + durationText);
+
             // If the response status is not OK, extract the status
         } else {
             System.out.println(status);
