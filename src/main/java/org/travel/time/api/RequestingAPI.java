@@ -24,7 +24,7 @@ public class RequestingAPI {
             RequestBody body = RequestBody.create(mediaType, "");
 
             // API Key for the Google Maps API
-            String apiKey = "AIzaSyB2Gy1rH3_qM4nbYWwNoCB1AIcS4yoLjoI";
+            String apiKey = "000";
 
             // Construct the URL for the API request
             String url = "https://maps.googleapis.com/maps/api/distancematrix/json?origins=" + pickup + "&destinations=" + dropoff + "&key=" + apiKey;
